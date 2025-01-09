@@ -1,0 +1,18 @@
+{
+	"name": "Raw_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Git_to_gen",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	}
+}
