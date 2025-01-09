@@ -1,0 +1,9 @@
+{
+	"name": "ADF-for-ete-project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8102e775-6f4f-494b-b51b-1dd72967212b",
+		"tenantId": "fba6057d-39cc-4a80-a712-7492b4ddcec0"
+	}
+}
