@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Git_to_bronze",
 	"properties": {
 		"activities": [
 			{
@@ -13,6 +13,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
+				"userProperties": [],
 				"typeProperties": {
 					"method": "GET",
 					"url": "https://github.com/raavibharath/ADF/blob/main/followed_artists_list_1.json"
